@@ -66,7 +66,7 @@
         "subnet1Prefix": "10.0.0.0/24",
         "nicName": "NIC",
         "subnet1Ref": "[concat(variables('vnetID'),'/subnets/', variables('subnet1Name'))]",
-        "customScriptFilePath": "http://github.com/sbarman-mi9/h2o-cloud/blob/master/Azure-H2O-VM/install_extras.sh",
+        "customScriptFilePath": "http://raw.githubusercontent.com/sbarman-mi9/h2o-cloud/master/Azure-H2O-VM/install_extras.sh",
         "customScriptCommandToExecute": "sh install_extras.sh",
         "vmExtensionName": "H2OdsvmExtension",
         "domainNameLabel": "[concat('h2odsvm-', uniqueString(resourceGroup().id))]"
