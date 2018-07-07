@@ -5,7 +5,7 @@ This template can also be extended to create a H2O cluster by setting the the <b
 
 This template will automatically:  Run the h2o.jar and create the cluster flatfile.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fh2oai%2Fh2o-cloud%2Fmaster%2FAzure-H2O-VM%2FmainTemplate.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsbarman-mi9%2Fh2o-cloud%2Fmaster%2FAzure-H2O-VM%2FmainTemplate.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
